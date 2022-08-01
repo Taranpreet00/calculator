@@ -107,6 +107,9 @@ function performoperation(){
         else if(curr != 0 && prev != undefined){
             equalfunction();
             operation = key;
+            prev = curr;
+            curr = 0;
+            currstring = '';
             display.innerText = key;
         }
     }
