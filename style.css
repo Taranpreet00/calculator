@@ -3,7 +3,6 @@ body{
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    background-color: blue;
 }
 #heading{
     display: block;
@@ -82,7 +81,7 @@ span:hover{
         width: 58px;
     }
     #zero{
-        width: 47.77%;
+        width: 47%;
     }
 }
 
