@@ -3,6 +3,7 @@ body{
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+    background-color: blue;
 }
 #heading{
     display: block;
@@ -74,11 +75,11 @@ span:hover{
 
 @media screen and (max-width: 400px){
     #calcbody{
-        width: 284px;
-        left: 10%;
+        width: 280px;
+/*         left: 10%; */
     }
     span{
-        width: 60px;
+        width: 58px;
     }
     #zero{
         width: 47.77%;
